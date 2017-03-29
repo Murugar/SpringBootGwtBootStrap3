@@ -1,0 +1,36 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' 
+	xmlns:b='urn:import:org.gwtbootstrap3.client.ui'>
+
+	<g:HTMLPanel>
+
+		<b:Container ui:field="c">
+
+			<b:Row>
+				<b:Column size="XS_12">
+
+					<b:PageHeader text="Spring Boot GWT BootStrap3" />
+
+					<b:Panel>
+						<b:PanelHeader>
+							<b:Heading size="H3" text="This is the home Page, you are logged in." />
+						</b:PanelHeader>
+						<b:PanelBody>
+							<b:Jumbotron>
+								<g:Label ui:field="welcomeLabel" />
+								<g:Button ui:field="logout" text="Logout" />
+								
+							</b:Jumbotron>
+						</b:PanelBody>
+						<b:PanelFooter>
+							<b:Heading size="H6" text="iQmSoft" />
+						</b:PanelFooter>
+					</b:Panel>
+				</b:Column>
+
+			</b:Row>
+
+		</b:Container>
+	</g:HTMLPanel>
+
+</ui:UiBinder>
